@@ -2,7 +2,8 @@ schema-version: 1.0.0
 application-family: Analytics
 application-name: Graphite
 application-version: latest
-flavor: Single Linux server
+flavor: Single Linux server - RCv3
+rackconnect: true
 flavor-weight: 1
 reach-info:
   icon-20x20: https://0b5294b243620310a700-e388a7f3aba385a925111b1fc6f680d4.ssl.cf2.rackcdn.com/blueprint-generic-whitespace-20x20.png
@@ -59,6 +60,7 @@ instructions: |
   It's configuration can be customized in the /etc/statsd/config.js file.
 user-input-required: true
 description: |
+  ####Single Linux server - RCv3
   Single Linux server running
   [Graphite 0.9.12](http://graphite.readthedocs.org) and
   [StatsD](https://github.com/etsy/statsd/).
