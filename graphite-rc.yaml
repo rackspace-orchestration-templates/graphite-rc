@@ -1,7 +1,7 @@
 heat_template_version: 2013-05-23
 
 description: |
-  ####Single Linux server - RCv3
+  #### Single Linux server - RCv3
   Single Linux server running
   [Graphite 0.9.12](http://graphite.readthedocs.org) and
   [StatsD](https://github.com/etsy/statsd/).
